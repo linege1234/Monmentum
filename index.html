@@ -6,19 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Momentum</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <div id="login-form">
+    <form id="login-form">
       <input
         type="text"
         required
         maxlength="10"
         placeholder="What is your name?"
       />
-      <!--if we use form and button type "submit", dont need to click event-->
-      <button type="submit" value="submitValue">Log in</button>
-    </div>
-    <script src="app.js"></script>
+      <!--form 과 button클릭으로 서브밋할 때 버튼은 필요없이 인풋 으로 진행하면 됨!!-->
+      <input type="submit" value="Log in" />
+      <a href="https://www.naver.com/">go to naver</a>
+    </form>
+    <a id="greeting" class="hidden"></a>
+
+    <script src="/JS/greeting.js"></script>
   </body>
 </html>
