@@ -4,7 +4,7 @@ const greeting = document.querySelector("#greeting");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
-const link = document.querySelector("a");
+const link = document.querySelector("h1");
 
 link.addEventListener("click", (info) => {
   info.preventDefault(); //이벤트 함수의 파라미터는 이벤트의 정보를 가지고 있기떄문에 default 함수 즉 브라우저가 직접 해야하는 함수 실행을 막을수가 있어
